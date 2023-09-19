@@ -71,7 +71,7 @@ def create_rfm_df(df):
 
 # Load berkas
 import pandas as pd
-all_df = pd.read_csv('https://raw.githubusercontent.com/darman1725/Dicoding-Project/master/Belajar_Analisis_Dengan_Python/all_data.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/darman1725/Dicoding-Project/master/Belajar_Analisis_Dengan_Python/Project_1/data/all_data.csv')
 
 # mengurutkan DataFrame berdasarkan order_date serta memastikan kedua kolom tersebut bertipe datetime. 
 datetime_columns = ["order_date", "delivery_date"]

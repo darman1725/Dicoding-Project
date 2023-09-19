@@ -1,4 +1,5 @@
-# Review mandiri adalah proses Anda memastikan semua checklist submission sudah terpenuhi. Pastikan Anda mencentang semua checklist yang tersedia.
+# Review mandiri adalah proses Anda memastikan semua checklist submission sudah terpenuhi. 
+# Pastikan Anda mencentang semua checklist yang tersedia.
 # 1. Memastikan seluruh ketentuan pengiriman submission
 # 2. Menggunakan salah satu dari dataset yang telah disediakan
 # 3. Melakukan seluruh proses analisis data
@@ -27,7 +28,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Dataframe awal 
-data = pd.read_csv('https://raw.githubusercontent.com/darman1725/Dicoding-Project/master/Belajar_Analisis_Dengan_Python/data_stunting.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/darman1725/Dicoding-Project/master/Belajar_Analisis_Dengan_Python/Project_2/data/data_stunting.csv')
 
 # Nama Halaman
 st.set_page_config(
@@ -38,7 +39,7 @@ st.set_page_config(
 #Sidebar
 with st.sidebar:
     # Menambahkan logo instansi
-    st.image("https://raw.githubusercontent.com/darman1725/Dicoding-Project/master/Belajar_Analisis_Dengan_Python/dinas_medan.png")
+    st.image("https://raw.githubusercontent.com/darman1725/Dicoding-Project/master/Belajar_Analisis_Dengan_Python/Project2/dinas_medan.png")
     
     st.sidebar.header('Filter Data')
     # Buat opsi "Semua Kecamatan"
